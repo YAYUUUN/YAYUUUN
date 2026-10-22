@@ -6,7 +6,7 @@ Final-year Computer Engineering student at Universitat de Barcelona. I build sof
 
 **Public here**
 
-- [**updown**](https://github.com/YAYUUUN/updown): will the next candle close higher? 13 models and a PyTorch transformer on free Yahoo/Binance data, with a purged walk-forward evaluator that is tested to catch its own mistakes, and market regimes detected from past data only.
+- [**updown**](https://github.com/YAYUUUN/updown) · v0.1.1: will the next candle close higher? 13 models and a PyTorch transformer on free Yahoo/Binance data, with a purged walk-forward evaluator that is tested to catch its own mistakes, market stages from a hidden Markov model filtered with past data only, and per-stage models. Installable package, 61 tests, CI on Python 3.10–3.12.
 - [**quant-eval-harness**](https://github.com/YAYUUUN/quant-eval-harness): evaluation harness for cross-sectional equity strategies, with null / shuffled-label / leakage-canary / power tripwires, purged walk-forward and deflated Sharpe. A pre-registered study on 12 years of S&P 500 data found no edge, and says so.
 - [**proximity-partition-sort**](https://github.com/YAYUUUN/proximity-partition-sort): hybrid sorting algorithm in C (value-range partitioning with heapsort fallback). In my own benchmark on 5M random integers it runs about 1.1x slower than `qsort` and 2x slower than `std::sort`.
 
